@@ -3,11 +3,11 @@
   padding-bottom: 60px;
   background: #2f303a;
 }
-
-.footer-icon {
-  margin-left: auto;
-  margin-right: auto;
+.futer-container {
+  display: flex;
+  align-items: baseline;
 }
+
 .footer-mail {
   margin-bottom: 9px;
 }
@@ -15,9 +15,6 @@
   margin-bottom: 9px;
 }
 
-.footer-studio {
-  color: var(--white-col);
-}
 .address {
   font-style: normal;
   font-size: 14px;
@@ -47,10 +44,6 @@
   text-decoration: none;
 }
 
-.futer-container {
-  display: flex;
-  align-items: baseline;
-}
 .footer-social {
   font-weight: 700;
   font-size: 14px;
@@ -61,9 +54,6 @@
 }
 .socials-link {
   background-color: rgba(255, 255, 255, 0.1);
-}
-.footikon .social-icon {
-  fill: var(--white-col);
 }
 
 /*-- form futer--*/

@@ -19,18 +19,24 @@
   width: 170px;
   height: 92px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.client-link:hover,
-.client-link:focus {
-  border-color: var(--accent-color);
-  outline: none;
-}
-.client-link:hover .client-icon,
-.client-link:focus .client-icon {
-  fill: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    outline: none;
+  }
+
+  &:hover .client-icon,
+  &:focus .client-icon {
+    fill: var(--accent-color);
+  }
 }
 
 .client-icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-item:not(:last-child) {
+  margin-right: 30px;
 }
